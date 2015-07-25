@@ -1,3 +1,6 @@
+This was the project i worked for my one month Internship.
+The CLient was a branch of AXIS Bank who wanted to change the UI of [OTRS](https://www.otrs.com/software/) (a ticketing software) to reflect the theme of AXIS bank.
+
 
 # Contents
 1. [ DEPLOYMENT AND USAGE](#deployment-and-usage)

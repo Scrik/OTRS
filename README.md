@@ -94,11 +94,12 @@ The original header of the page is now the footer.
 ___
 # NEW LOOK AND FEEL
 
+<img align="right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Drop%20Down%20and%20dynamic.PNG">
+
 The new Navigation bar is a sidebar which has many dynamic entities added to it.
 
 Once a list Item is clicked it expands if it contains more elements.
-         <img style="float: right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Drop%20Down%20and%20dynamic.PNG">
-         
+
 It does not collapse until and unless it is manually done by the user 
 
 This is unlike the previous behaviour in which the list collapses after a few seconds.
@@ -110,26 +111,28 @@ Arrow head pointing towards the right means it is currently collapsed.
 On expansion of a list the other items move down to accommodate the sub list items.
 
 
-
-
-
-
-
-
+___
+<img align="right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
 
 The new Navigation Bar has dynamic size changing according to the text content. As can be seen from the previous and this image.
 
 The currently selected page has the corresponding list Item a thin black border around it.
 
-A slight pink color is added on a sub list item upon mouse hover 
 
+___
+
+
+
+
+A slight pink color is added on a sub list item upon mouse hover 
+![alt text](https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Screenshot%20(328).png)
 The whole Navigation Bar can be collapsed to the side increasing the workspace area.
 This can be done by clicking on the double arrow on top of the Navigation Bar.
+____
 
 
 
- 
-
+![alt text](https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Login.PNG)
 The new login page is completely revamped to give it a new feel and remove the excess unnecessary elements
 
 Various other changes to match the new colour theme have been done. Ranging from the hover color on items in a list or in a table to changing the colour of the page header.

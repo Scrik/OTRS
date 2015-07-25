@@ -2,7 +2,7 @@
 # Contents
 1. [ DEPLOYMENT AND USAGE](#DEPLOYMENT AND USAGE)
 1. [ CHANGE](http://www.google.com)
-1. [ NEW LOOK AND FEEL](#NEW LOOK AND FEEL)
+1. [ NEW LOOK AND FEEL](#NEW-LOOK-AND-FEEL)
 1. [ FUTURE OF THE PROJECT](http://www.google.com)
 
 ___

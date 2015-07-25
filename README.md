@@ -97,7 +97,8 @@ ___
 The new Navigation bar is a sidebar which has many dynamic entities added to it.
 
 Once a list Item is clicked it expands if it contains more elements.
-           ![alt text](https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Drop%20Down%20and%20dynamic.PNG):
+         <img style="float: right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Drop%20Down%20and%20dynamic.PNG">
+         
 It does not collapse until and unless it is manually done by the user 
 
 This is unlike the previous behaviour in which the list collapses after a few seconds.

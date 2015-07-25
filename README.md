@@ -128,7 +128,7 @@ The new Navigation Bar has dynamic size changing according to the text content. 
 
 The currently selected page has the corresponding list Item a thin black border around it.
 
-<img align="right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
+<img align="left" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
 
 ___
 

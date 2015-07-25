@@ -1,6 +1,6 @@
 
 # Contents
-1. [ DEPLOYMENT AND USAGE](http://www.google.com)
+1. [ DEPLOYMENT AND USAGE](#DEPLOYMENT AND USAGE)
 1. [ CHANGE](http://www.google.com)
 1. [ NEW LOOK AND FEEL](http://www.google.com)
 1. [ FUTURE OF THE PROJECT](http://www.google.com)
@@ -123,12 +123,12 @@ On expansion of a list the other items move down to accommodate the sub list ite
      
      
 ___
-<img align="right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
 
 The new Navigation Bar has dynamic size changing according to the text content. As can be seen from the previous and this image.
 
 The currently selected page has the corresponding list Item a thin black border around it.
 
+<img align="right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
 
 ___
 

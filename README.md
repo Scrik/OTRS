@@ -20,17 +20,17 @@ ___
 # CHANGES
 
 List of files in which changes were made
-*	DTL files
+*	[DTL files](#dtl-files)
    1. AgentFAQExplorer.dtl
    1. AgentNavigationBar.dtl
    1. CustomerTicketMessage.dtl
    1. Header.dtl
    1. Login.dtl
   
-* JavaScript
+* [JavaScript](#javascript)
   1. Core.Agent.js
 
-* CSS
+* [CSS](#css)
   1. Core.AgentTicketQueue.css
   1. Core.Default.css
   1. Core.Form.css
@@ -111,12 +111,12 @@ Arrow head pointing towards the right means it is currently collapsed.
 On expansion of a list the other items move down to accommodate the sub list items.
 
 ___
-
+<img align="left" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
 The new Navigation Bar has dynamic size changing according to the text content. As can be seen from the previous and this image.
 
 The currently selected page has the corresponding list Item a thin black border around it.
 
-<img align="left" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
+
 
 ___
 

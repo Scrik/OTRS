@@ -22,17 +22,14 @@ ___
 List of files in which changes were made
 *	DTL files
    1. AgentFAQExplorer.dtl
-
    1. AgentNavigationBar.dtl
-  
    1. CustomerTicketMessage.dtl
-  
    1. Header.dtl
-  
    1. Login.dtl
   
 * JavaScript
   1. Core.Agent.js
+
 * CSS
   1. Core.AgentTicketQueue.css
   1. Core.Default.css
@@ -40,3 +37,56 @@ List of files in which changes were made
   1. Core.Header.css
   1. Core.OverviewSmall.css
   1. Core.Table.css
+  1. default/Core.Header.css
+
+
+####DTL FILES
+* *AgentFAQExplorer.dtl*
+
+   Fixing of irregular layout caused by the new Vertical Navigation Bar, removed line: 25 Clear Fix
+
+* *AgentNavigationBar.dtl*
+
+    Many changes were done to facilitate hiding the sidebar, introducing the arrow for indicating the collapse and expand functionalities of List Items, and moving the other list items down.
+
+* *CustomerTicketMessage.dtl*
+ 
+     Introduced more form fields.
+
+* *Header.dtl*
+
+    Changed logout icon.
+
+
+*  *Login.dtl*
+
+    Heavy changes made to the Agent login page.
+Login.dtl has some if not many inline CSS styles which obviously is not recommended in usual situation but in this case it works out pretty fairly as no other file/DOM is supposed to adopt this style.
+The footer was not removed as removing it for some absurd reason disabled the login button (why this happened is still not clear)
+The original header of the page is now the footer.
+
+####JAVASCRIPT
+*  *Core.Agent.js*
+
+    Commented out Lines 98-102 to disable the timer of a List Item drop down.
+
+####CSS
+*  *Core.Form.css*
+
+    Fixed layout and indentation for forms which was ruined because of the new Login page.
+
+*  *Core.Header.css*
+
+    Modified colour attributes, Logout Button, Removed float, changed the Navigation bar to sidebar, Position Attributes, Position Attributes for Error message, changes to elements of sidebar to accommodate the changes made (Look and feel).
+
+*  *Core.OverviewSmall.css*
+
+    Removed Padding, Fixed Layout.
+
+*  *Core.Table.css*
+
+    Background and mouse hover highlight colour changed.
+
+*  *Core.AgentTicketQueue.css*, *Core.Default.css*
+
+    Minor layout changes as a result of making the side Navigation Bar.

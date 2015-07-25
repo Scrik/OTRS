@@ -109,19 +109,19 @@ There is a small arrow head indicating the current state of the list:
 Arrow head pointing towards the right means it is currently collapsed.
 
 On expansion of a list the other items move down to accommodate the sub list items.
-
-
-
-
-
-
-
-
-
-
-
-
-
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
 ___
 <img align="right" src="https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/dynamic%20size.PNG">
 

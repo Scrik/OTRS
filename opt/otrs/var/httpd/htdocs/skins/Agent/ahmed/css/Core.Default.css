@@ -1,0 +1,38 @@
+
+.CenterBox {
+	/* important NO MORE  */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/**
+ * @subsection  MainBox
+ */
+.MainBox {
+    padding: 0px;
+}
+
+.OverviewBox {
+	padding-left: 0px;
+}
+
+/* LoginPage Specifics */
+#loginPageImg {
+  position: relative;
+  float: left;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+#LoginButton {	
+position:absolute;
+margin-top: 80px;
+margin-left: 2.5em;
+width: 60%;
+height: 60px;
+border: 1px solid #ecf0f1;
+-moz-border-radius: 0px 10px;
+-webkit-border-radius: 0px 10px 0px 10px;
+border-radius: 0px 10px; 
+background-image: url(../img/loginButton.png);
+background-repeat:no-repeat;
+}

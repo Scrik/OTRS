@@ -1,0 +1,13 @@
+@media screen,projection,tv,handheld {
+	
+#OverviewBody {
+  
+  border-right: 1px solid #DDD;
+  padding-left: 0px;
+  display: block;
+  overflow: auto;
+}
+
+
+
+} /* end @media */

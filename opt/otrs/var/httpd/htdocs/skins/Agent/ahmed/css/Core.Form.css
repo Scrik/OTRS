@@ -1,0 +1,14 @@
+
+@media screen,projection,tv,handheld {
+
+#User,#Password
+{
+  margin-left: -25%;
+margin-right: 5%;
+   padding-left: -10px;
+}
+#LoginButton{
+	margin-left:-15%;
+	}
+
+} /* end @media */

@@ -1,0 +1,108 @@
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Header
+ */
+#Header {
+    height: 72px;
+    padding: 10px 0 12px;
+	background: #CD1C5F;
+}
+
+#ToolBar a {
+	color: white;
+}
+#ToolBar a:hover {
+	color:#3498db;
+}
+
+#UserInfo a.LogoutButton {
+	color:white;
+}
+#UserInfo a{
+	color:white;
+}
+#UserInfo a:hover {
+	color:#3498db;
+}
+
+
+/**
+ * @subsection      Main hover effect
+ */
+#Navigation > li {
+    background: #EBEBEB;
+	margin-top: 8px;
+}
+
+#Navigation > li > a {
+    display: inline-block;
+    color: black;
+}
+/*#Navigation > li:hover > a,*/
+#Navigation > li:active > a {
+    color: #FFF;
+}
+#Navigation > .Selected {
+    border: 1px solid #999999;
+    /*-webkit-box-shadow: inset 1px 1px 1px 0px #F92, inset -1px -1px 1px 0px #F92;
+    box-shadow: inset 1px 1px 1px 0px #F92, inset -1px -1px 1px 0px #F92;
+	*/
+	color: black;
+    z-index: 90;
+}
+
+#Navigation > .Selected > a {
+    /*color: #FFF;*/
+}
+
+#Navigation > .Active > ul {
+    position: relative;
+    top: 0px;
+   min-width: initial;
+    background: #EBEBEB;
+	color: black;
+	margin-bottom: 3.4em;
+}
+#Navigation > .Active > ul > li > a {
+    color: black;
+
+}
+
+#Navigation{
+	float:left;
+	position:relative;
+	top:40px;
+	transition: all .50s;
+	}
+#Navigation li {
+	display:block; !important
+	margin-top: 8px; !important
+}
+	
+.MainBox.ARIARoleMain.LayoutFixedSidebar.SidebarLast	{
+/*  float: left;*/
+	width: auto;
+}
+.MessageBox.Error {
+	position: inherit;
+}
+SidebarColumn.ui-sortable{
+	width:auto;!important
+}
+.LayoutFixedSidebar.SidebarLast > .SidebarColumn {
+	width:auto;!important
+}
+
+.ARIARoleNavigation.collapsed {
+	left: -200px;
+	margin-right: -200px;
+}
+
+ul#Navigation > li >ul >li :hover {
+  background-color: oldlace;
+}
+
+ul#Navigation > li:hover {
+  background-color: darkgrey;
+}

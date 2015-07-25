@@ -1,0 +1,5 @@
+
+.DataTable tbody tr:hover td,
+.TableSmall tbody tr:hover td {
+    background: #999999;
+}

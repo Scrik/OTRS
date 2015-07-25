@@ -1,0 +1,57 @@
+# --
+# AgentNavigationBar.dtl - provides global HTML NavigationBar
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
+# --
+# This software comes with ABSOLUTELY NO WARRANTY. For details, see
+# the enclosed file COPYING for license information (AGPL). If you
+# did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+# --
+<script type="text/javascript">
+function arrow(li) {
+	var right=li.getElementsByClassName('listele')[0];
+	{
+		//alert(li.parentNode);
+		right.classList.toggle('icon-chevron-right');
+		right.classList.toggle('icon-chevron-down');
+	}
+}
+</script>
+
+<a style="margin-top:20px;" class="menu icon-backward"
+onclick="document.getElementsByClassName('ARIARoleNavigation')[0].classList.toggle('collapsed');
+document.getElementsByClassName('menu')[0].classList.toggle('icon-forward');
+document.getElementsByClassName('menu')[0].classList.toggle('icon-backward');" href=#></a>
+
+
+<ul id="Navigation" class="ARIARoleNavigation">
+<!-- dtl:block:ItemArea-->
+	<li id="nav-$QData{"NameForID"}" class="$QData{"CSS"}">
+<a href="$Env{"Baselink"}$Data{"Link"}" title="$Text{"$Data{"Name"}"}$QData{"AccessKeyReference"}" accesskey="$QData{"AccessKey"}" $Data{"LinkOption"} style="width:100%;"
+onclick="arrow(this);">
+	$Text{"$Data{"Name"}"}<p style="position:absolute;right:5px;" class="listele icon-chevron-right"></p></a>
+		
+        <span></span>
+<!-- dtl:block:ItemAreaSub -->
+        <ul id="nav-$QData{"NameForID"}-container">
+<!-- dtl:block:ItemAreaSubItem -->
+            <li id="nav-$QData{"NameTop"}-$QData{"NameForID"}">
+                <a href="$Env{"Baselink"}$Data{"Link"}" title="$Text{"$Data{"Description"}"}$QData{"AccessKeyReference"}" accesskey="$QData{"AccessKey"}" $Data{"LinkOption"}>$Text{"$Data{"Name"}"}</a>
+            </li>
+<!-- dtl:block:ItemAreaSubItem -->
+        </ul>
+<!-- dtl:block:ItemAreaSub -->
+    </li>
+<!-- dtl:block:ItemArea -->
+<!-- dtl:block:SearchIcon -->
+    <li id="nav-search">
+        <a class="Search ARIARoleSearch ARIAHasPopup" id="GlobalSearchNav" href="$Env{"Baselink"}Action=AgentTicketSearch" title="$Text{"Search"}">
+            <i class="icon-search"></i>
+        </a>
+    </li>
+<!-- dtl:block:SearchIcon -->
+</ul>
+<script>
+	var sel=document.getElementsByClassName('Selected')[0];
+	sel.classList.toggle('Active');
+	arrow(sel.children[0]);
+</script>

@@ -1,0 +1,19 @@
+
+@media screen,projection,tv,handheld {
+.WidgetSimple.QueueOverview {
+display :block;
+overflow: auto;
+}
+
+#OverviewBody {
+  /* margin: 0 16px 8px 8px; */
+  display :block;
+  overflow: auto;
+  border-left: 1px solid #DDD;
+  border-right: 1px solid #DDD;
+  padding-left: 0px;
+  display: block;
+  overflow: auto;
+}
+
+} /* end @media */

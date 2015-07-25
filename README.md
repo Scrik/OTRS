@@ -1,9 +1,9 @@
 
 # Contents
-1. [ DEPLOYMENT AND USAGE](#DEPLOYMENT AND USAGE)
-1. [ CHANGE](http://www.google.com)
+1. [ DEPLOYMENT AND USAGE](#deployment-and-usage)
+1. [ CHANGE](#change)
 1. [ NEW LOOK AND FEEL](#new-look-and-feel)
-1. [ FUTURE OF THE PROJECT](http://www.google.com)
+1. [ FUTURE OF THE PROJECT](#future-of-the-project)
 
 ___
 # DEPLOYMENT AND USAGE
@@ -109,19 +109,7 @@ There is a small arrow head indicating the current state of the list:
 Arrow head pointing towards the right means it is currently collapsed.
 
 On expansion of a list the other items move down to accommodate the sub list items.
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+
 ___
 
 The new Navigation Bar has dynamic size changing according to the text content. As can be seen from the previous and this image.
@@ -147,3 +135,16 @@ ____
 The new login page is completely revamped to give it a new feel and remove the excess unnecessary elements
 
 Various other changes to match the new colour theme have been done. Ranging from the hover color on items in a list or in a table to changing the colour of the page header.
+
+___
+
+# FUTURE OF THE PROJECT
+
+
+The immediate future scope of the project would be to switch the company logo for a mini-version so that the height of the header can be reduced.(Which was done by the client(AXIS Bank))
+
+In the longer run this project can be aimed to adapt the Material Design concept or something similar which reduces the number of functioning elements in the page to increase the visual experience and productivity from the user side.
+Even though adapting the Material design in the project in its current state is not at all recommended. It requires a lot of panels to be removed which reduces the functionality of the application at a given screen presented to the user and also would increase the number of mouse clicks and mouse movements.
+Hence adapting such concept certainly requires a lot pf planning and requirement analysis to be made.
+
+Any further modifications as per the users’ requirement can be done by reading the changes section of this document and the guides mentioned at [OTRS GitHub docs](http://otrs.github.io/doc/index.html).

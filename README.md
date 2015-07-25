@@ -90,3 +90,45 @@ The original header of the page is now the footer.
 *  *Core.AgentTicketQueue.css*, *Core.Default.css*
 
     Minor layout changes as a result of making the side Navigation Bar.
+
+___
+# NEW LOOK AND FEEL
+
+The new Navigation bar is a sidebar which has many dynamic entities added to it.
+
+Once a list Item is clicked it expands if it contains more elements.
+           ![alt text](https://raw.githubusercontent.com/asabeeh18/OTRS/master/Report/Drop%20Down%20and%20dynamic.PNG):
+It does not collapse until and unless it is manually done by the user 
+
+This is unlike the previous behaviour in which the list collapses after a few seconds.
+
+There is a small arrow head indicating the current state of the list:
+   If the arrow head is pointing down is indicates that the list is expanded.
+Arrow head pointing towards the right means it is currently collapsed.
+
+On expansion of a list the other items move down to accommodate the sub list items.
+
+
+
+
+
+
+
+
+
+The new Navigation Bar has dynamic size changing according to the text content. As can be seen from the previous and this image.
+
+The currently selected page has the corresponding list Item a thin black border around it.
+
+A slight pink color is added on a sub list item upon mouse hover 
+
+The whole Navigation Bar can be collapsed to the side increasing the workspace area.
+This can be done by clicking on the double arrow on top of the Navigation Bar.
+
+
+
+ 
+
+The new login page is completely revamped to give it a new feel and remove the excess unnecessary elements
+
+Various other changes to match the new colour theme have been done. Ranging from the hover color on items in a list or in a table to changing the colour of the page header.

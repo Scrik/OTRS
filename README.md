@@ -4,7 +4,7 @@ The CLient was a branch of AXIS Bank who wanted to change the UI of [OTRS](https
 
 # Contents
 1. [ DEPLOYMENT AND USAGE](#deployment-and-usage)
-1. [ CHANGE](#change)
+1. [ CHANGES](#changes)
 1. [ NEW LOOK AND FEEL](#new-look-and-feel)
 1. [ FUTURE OF THE PROJECT](#future-of-the-project)
 

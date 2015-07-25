@@ -1,10 +1,3 @@
-1. First ordered list item
-1. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-1. And another item.
-
 
 # Contents
 1. [ DEPLOYMENT AND USAGE](http://www.google.com)
@@ -28,22 +21,22 @@ ___
 
 List of files in which changes were made
 *	DTL files
-   1.AgentFAQExplorer.dtl
+   1. AgentFAQExplorer.dtl
 
-   1.AgentNavigationBar.dtl
+   1. AgentNavigationBar.dtl
   
-   1.CustomerTicketMessage.dtl
+   1. CustomerTicketMessage.dtl
   
-   1.Header.dtl
+   1. Header.dtl
   
-   1.Login.dtl
+   1. Login.dtl
   
 * JavaScript
-  1.Core.Agent.js
+  1. Core.Agent.js
 * CSS
-  1.Core.AgentTicketQueue.css
-  1.Core.Default.css
-  1.Core.Form.css
-  1.Core.Header.css
-  1.Core.OverviewSmall.css
-  1.Core.Table.css
+  1. Core.AgentTicketQueue.css
+  1. Core.Default.css
+  1. Core.Form.css
+  1. Core.Header.css
+  1. Core.OverviewSmall.css
+  1. Core.Table.css
